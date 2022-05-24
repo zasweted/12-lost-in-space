@@ -1,19 +1,26 @@
-header {
-    width: 800px;
-    margin: auto;
-    margin-bottom: 30px;
-    background-color: red;
-}
-main {
+header,
+main,
+footer {
     width: 800px;
     margin: auto;
     margin-bottom: 30px;
     background-color: red;
 }
 
-footer {
-    width: 800px;
-    margin: auto;
-    margin-bottom: 30px;
-    background-color: red;
+header > img {
+    background-color: blue;
+
+}
+
+nav > a {
+    background-color: yellow;
+
+}
+
+main > a {
+    background-color: grey;
+}
+
+main > img {
+    background-color: orange;
 }
