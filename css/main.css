@@ -8,8 +8,8 @@ footer {
     display: inline-block;
     width: 800px;
     margin-left: calc(50% - 400px);
+    margin-right: calc(50% - 400px);
     margin-bottom: 30px;
-    background-color: yellow;
 }
 
 header > img {
@@ -25,7 +25,6 @@ nav {
 nav > a {
     float: left;
     margin-left: 50px;
-    background-color: yellow;
     font-size: 20px;
     line-height: 20px;
     text-decoration: none;
@@ -35,10 +34,49 @@ nav > a:nth-of-type(1) {
     margin-left: 0;
 }
 
-main > a {
-    background-color: grey;
+main > div {
+    width: 40%;
+    float: left;
+}
+
+main h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+main h2 {
+    margin: 0;
+    font-size: 60px;
+    letter-spacing: -2px;
+}
+
+main p {
+    color: #777;
 }
 
 main > img {
-    background-color: orange;
+    width: 55%;
+    float: right;
+}
+
+main > div > div {
+
+}
+
+main a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #222244;
+    color: white;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+}
+
+main a:last-child {
+    color: #222244;
+    background-color: white;
+    border: 2px solid#222244;
 }
