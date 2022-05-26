@@ -95,4 +95,16 @@ footer div {
 
 footer p {
     float: right;
+    margin: 0;
+}
+
+footer div > a {
+    float: left;
+    color: #aaa;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer div a + a {
+    margin-left: 10px;
 }
