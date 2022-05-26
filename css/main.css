@@ -55,7 +55,7 @@ main h2 {
 main hr {
     width: 100px;
     float: left;
-    color: #662C8C;
+    background-color: #662C8C;
     margin: 0;
     height: 4px;
     border-radius: 2px;
