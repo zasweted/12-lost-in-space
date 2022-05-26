@@ -52,6 +52,16 @@ main h2 {
     letter-spacing: -2px;
 }
 
+main hr {
+    width: 100px;
+    float: left;
+    color: #662C8C;
+    margin: 0;
+    height: 4px;
+    border-radius: 2px;
+    border: none;
+}
+
 main p {
     color: #662C8C;
 }
@@ -77,4 +87,12 @@ main a:last-child {
     color: #662C8C;
     background-color: white;
     border: 2px solid#662C8C;
+}
+
+footer div {
+    float: left;
+}
+
+footer p {
+    float: right;
 }
