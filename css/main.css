@@ -30,6 +30,10 @@ nav > a {
     text-decoration: none;
 }
 
+nav > a:hover {
+    text-decoration: underline;
+}
+
 nav > a:nth-of-type(1) {
     margin-left: 0;
 }
@@ -66,24 +70,25 @@ main p {
     color: #662C8C;
 }
 
-main > img {
+main > img:first-child {
     width: 55%;
     float: right;
 }
 
-
-main a {
+.btn {
     display: inline-block;
     text-decoration: none;
     background-color: #662C8C;
     color: white;
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 10px 30px;
     border-radius: 30px;
 }
 
-main a:last-child {
+.btn:hover {
+    box-shadow: 10px 10px 10px 0px #a7a7cb;
+}
+
+.btn.btn-white {
     color: #662C8C;
     background-color: white;
     border: 2px solid#662C8C;
@@ -103,6 +108,10 @@ footer div > a {
     color: #aaa;
     text-decoration: none;
     font-size: 20px;
+}
+
+footer div > a:hover {
+    color: red;
 }
 
 footer div a + a {
