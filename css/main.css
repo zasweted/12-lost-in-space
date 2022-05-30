@@ -93,9 +93,30 @@ div > div {
 }
 
 main > img {
+    display: block;
     width: 55%;
     float: right;
 }
+
+.img-mouseover {
+    display: none;
+    position: absolute;
+    top: 18px;
+    left: 6px;
+    z-index: 99;
+}
+
+.card {
+    width: 130px;
+    height: 195px;
+    position: relative;
+    display: inline-block;
+}
+
+.card:hover .img-mouseover {
+    display: inline;
+}
+    
 
 .social-link-menu {
     float: left;
